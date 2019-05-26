@@ -137,6 +137,11 @@ This is a cross reference between schematic and datasheet pin descriptions which
 
 I get how this works now, see references for a video
 
+### Parts required
+* LD1970-LQFP (ebay)
+* qfp44 to DIP pcb (.8mm pitch, ebay) 
+
+
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
 * 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
