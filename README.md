@@ -135,7 +135,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * 34 - P15 - 63
 * 35 - P16 - 62
 
-I have a pretty decent idea for how these work and I'll be able to confirm this when my new scope arrives in the mail. The schematic also indicates the negative voltages on the port pins p1-p16 though the voltages they describe vary from port to port and I'm not sure if that's intended or if that's just what was observed but I would imagine its intended to be pulsed. Whatever it is, and (hopefully its not too much more specific than PWM) I'll have to figure out how to do something similar efficiently with a raspi. Suddenly I am reminded that it's basically like any vacuum tube with an anode/cathode, high voltage, etc, so I'm not really sure why the voltages are neg. Something has to pull the screen voltage down, to allow electrons to pass through which I assume is 1G-9G. The others must be the cathodes (there should be several tungsten wires across the top.)
+I get how this works now, see references for a video
 
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
@@ -161,3 +161,4 @@ I have a pretty decent idea for how these work and I'll be able to confirm this 
 
 * All of the documentation I've collected for r-se7, several components, (and compilers for the 78k): [https://drive.google.com/open?id=1AyYiC1ziDI0ZXOdMTM25pujILzwA1Hd8]
 * uPD78045 specific datasheet (file is named upd78042, but covers 78045): https://drive.google.com/open?id=17MiFq-sq1-PTsri5Ty9TpFgVPU2OfV-g
+* vacuum fluroescent display from a blu-ray player: https://www.youtube.com/watch?v=oxMdLEGoQgU
