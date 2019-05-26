@@ -82,9 +82,8 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * P120-P127 (Port 12)
 
 1. A class amplifier (pure a control)
-* pin 13 - controls the A class for constant +/- 12V  (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
-* P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
-* pin 49 (4.2v out to pure A led)
+* pin 13 - controls the A class for constant +/- 12V  (pure A mode) datasheet says pin it is P23/STB 
+* pin 49 (4.2v drives pure A on LED indicator)
 
 2. Fluro tube display 
 * pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively
