@@ -60,7 +60,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * STB       (strobe)
 * FIP       (Fluroescent Indicator Panel)
 * VLOAD     (Negative Power Supply)
-* SB        (Serial Bus)
+* SB        (Serial2 Bus)
 * SI0,SI1   (Serial Input)
 * SO0,SO1   (Serial Output)
 * ANI       (Analog Input) 
@@ -80,6 +80,13 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * P100-P107 (Port 10)
 * P110-P117 (Port 11)
 * P120-P127 (Port 12)
+
+## I/O Port details
+* CMOS Input: 2 lines
+* CMOS I/O: 27 lines
+* N-ch open-drain: 5 lines
+* P-ch open-drain I/O: 16 lines
+* P-ch open-drain output: 18 lines
 
 ## A class amplifier (pure a control)
 * pin 13 - controls the A class for constant +/- 12V  (pure A mode) datasheet says pin it is P23/STB 
