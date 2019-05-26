@@ -82,6 +82,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * P120-P127 (Port 12)
 
 ## I/O Port details
+* FIP pins are multiplexed with port pins
 * CMOS Input: 2 lines
 * CMOS I/O: 27 lines
 * N-ch open-drain: 5 lines
