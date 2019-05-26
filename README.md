@@ -56,10 +56,34 @@ likely to happen at this point but I'd be interested in hearing someone's though
 # uPD78045 pin notes
 This is a cross reference between schematic and datasheet pin descriptions which will be necesarry for understanding how to interface another device in place of the 78k. 
 
+0. Abbreviations 
+* STB       (strobe)
+* FIP       (Fluroescent Indicator Panel)
+* VLOAD     (Negative Power Supply)
+* SB        (Serial Bus)
+* SI0,SI1   (Serial Input)
+* SO0,SO1   (Serial Output)
+* ANI       (Analog Input) 
+* AVDD      (Analog Power Supply) 
+* AVSS      (Analog Ground)
+* AVREF     (Analog Reference Voltage)
+* VDD       (Power Supply) 
+* VSS       (Ground)
+* SCK0,SCK1 (Serial Clock)
+* P00-P04   (Port 0)
+* P10-P17   (Port 1)
+* P20-P27   (Port 2)
+* P30-P37   (Port 3)
+* P70-P74   (Port 7)
+* P80-P81   (Port 8)
+* P90-P97   (Port 9)
+* P100-P107 (Port 10)
+* P110-P117 (Port 11)
+* P120-P127 (Port 12)
+
 1. A class amplifier (pure a control)
-* pin 13 - controls the A class +/- 12V power rail (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
+* pin 13 - controls the A class for constant +/- 12V  (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
 * P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
-* STB is an output mode of the pin - automatic transmission / reception strobe output line of serial interface.
 * pin 49 (4.2v out to pure A led)
 
 2. Fluro tube display 
