@@ -56,8 +56,8 @@ likely to happen at this point but I'd be interested in hearing someone's though
 # uPD78045 pin notes
 
 1. A class amplifier (pure a control)
-1.1 pin 13 - controls the A class +/- 12V power rail (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
-1.1.1 P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
+* pin 13 - controls the A class +/- 12V power rail (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
+** P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
 1.1.2 STB is an output mode of the pin - automatic transmission / reception strobe output line of serial interface.
 1.3 pin 49 (4.2v out to pure A led)
 
