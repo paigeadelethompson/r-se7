@@ -82,3 +82,7 @@ likely to happen at this point but I'd be interested in hearing someone's though
 * 14 SEL STB (Strobe?) out - datasheet P22/SCK1
 * 22 T. Mute - datashet P22/ANI6 
 * 71 VLOAD (-30v) - datasheet describes this as VLOAD
+
+# References
+
+* All of the documentation I've collected for r-se7, several components, (and compilers for the 78k): [https://drive.google.com/open?id=1AyYiC1ziDI0ZXOdMTM25pujILzwA1Hd8]
