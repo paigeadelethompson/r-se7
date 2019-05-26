@@ -32,13 +32,13 @@ typically run the amp at full volume but control the volume input from my Yamaha
 listening because it runs hotter however I have ran this amp 24/7 for 2 years without any problems. The MG10XU also gives me some nice pan and low/high pass 
 adjustments if I need or want them real quick.  
 
-### It's a good amp
+### It's a really good amp
 Just as a sort of listener's assay I would go as far as to say I would struggle to be as happy with anything built on discrete logic other than 
 this amp. It's probably one and it's particularly convienent because of its size and quality of the design which just doesn't exist anymore with anything new. It's 
 really gonna be costly when I finally do have to buy a set of monoblock amps and a set of magnapans but I'm looking forward to the day, eventually--not right now! 
 phew! And, on another note my "friend" recently moved to Las Vegas from Seattle and took my KRK rokit 8's with her which is fine, my amp has a sub channel (2.1) I'm 
 thinking about buying a good class D powered sub, like a KRK 10' though the immediate lower-freq response with my 6 ohm sony speakers is more than satisfactory to be 
-honest. 
+honest. Overall I use this system primarily with my computer which I use for movies, music, and games. 
 
 And in the meantime I want to come up with a design to commemerate this amp, it really deserves it and it's a damn shame that it can't just be this good, even with 
 modern amps. This one is really ahead of it's time and my original plan was to hack the NEC 78K but a full retrofit really does seem more appropriate. I looked at 
