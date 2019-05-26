@@ -54,6 +54,7 @@ port may just change the instruction pointer and if the contents of the eeprom a
 likely to happen at this point but I'd be interested in hearing someone's thoughts on this?
 
 # uPD78045 pin notes
+This is a cross reference between schematic and datasheet pin descriptions which will be necesarry for understanding how to interface another device in place of the 78k. 
 
 1. A class amplifier (pure a control)
 * pin 13 - controls the A class +/- 12V power rail (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
