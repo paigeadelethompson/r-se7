@@ -56,7 +56,7 @@ likely to happen at this point but I'd be interested in hearing someone's though
 # uPD78045 pin notes
 This is a cross reference between schematic and datasheet pin descriptions which will be necesarry for understanding how to interface another device in place of the 78k. The port pin numbers don't correspond to the actual physical pin number and that has to be cross referenced. 
 
-0. Abbreviations 
+## Abbreviations 
 * STB       (strobe)
 * FIP       (Fluroescent Indicator Panel)
 * VLOAD     (Negative Power Supply)
@@ -81,27 +81,27 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * P110-P117 (Port 11)
 * P120-P127 (Port 12)
 
-1. A class amplifier (pure a control)
+## A class amplifier (pure a control)
 * pin 13 - controls the A class for constant +/- 12V  (pure A mode) datasheet says pin it is P23/STB 
 * pin 49 (4.2v drives pure A on LED indicator)
 
-2. Fluro tube display 
+## Fluro tube display 
 * pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively
 * pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively
 * pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively 
 * pins 61-64 - datasheet says 61-64 are (P117/FIP25, P116/FIP24, P115/FIP23, P114/FIP22) respectively, UGH never want to cross ref that again.
 
-3. PLL (input selector)
+## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
 * 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
 
-4. Tuner 
+## Tuner 
 * pin 27-28 signal level - datasheet says 27 is P11/ANI11 28 is P10/ANI10
 
-5. rotary encoder (volume control) 
+## rotary encoder (volume control) 
 * pins 25-26 - datasheet pin 25 is P13/ANI3 and pin 26 is P12/ANI12
 
-6. Others
+## Others
 * 1 & 3 (AC?) - datasheet pin 1 is P94/FIP6 and 3 is P92/FIP4
 * 14 SEL STB (Strobe?) out - datasheet P22/SCK1
 * 22 T. Mute - datashet P22/ANI6 
