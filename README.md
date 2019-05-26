@@ -88,6 +88,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * N-ch open-drain: 5 lines
 * P-ch open-drain I/O: 16 lines
 * P-ch open-drain output: 18 lines
+* datasheet includes schematics for debouncing and various other pin configurations which should closely resemble those of the stereo schematic where applicable 
 
 ## A class amplifier (pure a control)
 * pin 13 - controls the A class for constant +/- 12V  (pure A mode) datasheet says pin it is P23/STB 
@@ -109,11 +110,15 @@ This is a cross reference between schematic and datasheet pin descriptions which
 ## rotary encoder (volume control) 
 * pins 25-26 - datasheet pin 25 is P13/ANI3 and pin 26 is P12/ANI12
 
+## Buttons
+
 ## Others
 * 1 & 3 (AC?) - datasheet pin 1 is P94/FIP6 and 3 is P92/FIP4
 * 14 SEL STB (Strobe?) out - datasheet P22/SCK1
 * 22 T. Mute - datashet P22/ANI6 
 * 71 VLOAD (-30v) - datasheet describes this as VLOAD
+
+
 
 # References
 
