@@ -54,7 +54,7 @@ port may just change the instruction pointer and if the contents of the eeprom a
 likely to happen at this point but I'd be interested in hearing someone's thoughts on this?
 
 # uPD78045 pin notes
-This is a cross reference between schematic and datasheet pin descriptions which will be necesarry for understanding how to interface another device in place of the 78k. 
+This is a cross reference between schematic and datasheet pin descriptions which will be necesarry for understanding how to interface another device in place of the 78k. The port pin numbers don't correspond to the actual physical pin number and that has to be cross referenced. 
 
 0. Abbreviations 
 * STB       (strobe)
