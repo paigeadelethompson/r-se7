@@ -86,3 +86,4 @@ likely to happen at this point but I'd be interested in hearing someone's though
 # References
 
 * All of the documentation I've collected for r-se7, several components, (and compilers for the 78k): [https://drive.google.com/open?id=1AyYiC1ziDI0ZXOdMTM25pujILzwA1Hd8]
+* uPD78045 specific datasheet (file is named upd78042, but covers 78045): https://drive.google.com/open?id=17MiFq-sq1-PTsri5Ty9TpFgVPU2OfV-g
