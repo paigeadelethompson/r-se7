@@ -95,11 +95,17 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * pin 49 (4.2v drives pure A on LED indicator)
 
 ## Fluro tube display 
-* pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively
-* pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively
-* pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively 
-* pins 61-64 - datasheet says 61-64 are (P117/FIP25, P116/FIP24, P115/FIP23, P114/FIP22) respectively, UGH never want to cross ref that again.
+* pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively (7)
+* pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively (6)
+* pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively (9)
+* pins 61-64 - datasheet says 61-64 are (P117/FIP25, P116/FIP24, P115/FIP23, P114/FIP22) respectively (4)
 
+### details 
+* datasheet for the 7805 specifies two display mode registers verbatim DSPM0 and DSPM1 that can control a FIP of 9 to 24 segments and 2-16 digits; in the datasheet it's illustrated as an x,y plane where x is designated segments and y is designated digits. This is what I imagine will be the hardest part of this project is the fact that it's almost designed exclusively for specific types of fluroescent displays because it offers features like the description says verbatim: automatic output of segment signals (DMA operation) and digit signals by automatically reading display data.
+* there's a total of 26 pins tied into the display
+* the display appears to be capable of displaying up to 8 alphanumeric characters on it's segment/digit plane
+* There are other static indicators which supports my theory that this is very specific to the display (duh) 
+* 
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
 * 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
