@@ -94,7 +94,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * pin 13 - controls the A class for constant +/- 12V  (pure A mode) datasheet says pin it is P23/STB 
 * pin 49 (4.2v drives pure A on LED indicator)
 
-## Fluro tube display 
+## Fluro tube display pins (on the 78045)
 * pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively (7)
 * pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively (6)
 * pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively (9)
@@ -105,7 +105,36 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * there's a total of 26 pins tied into the display
 * the display appears to be capable of displaying up to 8 alphanumeric characters on it's segment/digit plane
 * There are other static indicators which supports my theory that this is very specific to the display (duh) 
-* 
+* The amplifier schematic illustrates the segments and designates groups 1G-8G and several sub designations as well as the corresponding pin numbers 
+
+### display pins (of the actual display) and their corresponding designation and corresponding 78045 pin
+* 4  - 1G - 7
+* 5  - 2G - 6 
+* 6  - 3G - 5 
+* 7  - 4G - 4
+* 8  - 5G - 3
+* 9  - 6G - 2
+* 10 - 7G - 1
+* 11 - 8G - 80
+* 12 - 9G - 79 ( 9G is not illustrated except for it's connection to the display )
+* (13 - 19 are marked NX and have no apparent connection on the schematic)
+* 20 - P1 - 77
+* 21 - P2 - 76
+* 22 - P3 - 75
+* 23 - P4 - 74
+* 24 - P5 - 73
+* 25 - P6 - 72 
+* 26 - P7 - 71
+* 27 - P8 - 70 
+* 28 - P9 - 69
+* 29 - P10 - 68 
+* 30 - P11 - 67
+* 31 - P12 - 66
+* 32 - P13 - 65
+* 33 - P14 - 64 
+* 34 - P15 - 63
+* 35 - P16 - 62
+
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
 * 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
