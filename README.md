@@ -135,6 +135,8 @@ This is a cross reference between schematic and datasheet pin descriptions which
 * 34 - P15 - 63
 * 35 - P16 - 62
 
+I have a pretty decent idea for how these work and I'll be able to confirm this when my new scope arrives in the mail
+
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
 * 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
