@@ -140,7 +140,8 @@ I get how this works now, see references for a video
 ### Parts required
 * LD1970-LQFP (ebay)
 * qfp44 to DIP pcb (.8mm pitch, ebay) 
-
+#### datasheets
+* LD1970-LQFP https://drive.google.com/open?id=1p74VR-g0E53IzVezi3FRFK0c-d78_95h
 
 ## PLL (input selector)
 * pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
