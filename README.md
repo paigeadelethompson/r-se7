@@ -11,7 +11,7 @@ Among some of the added functionality, I'm hoping to include
 - A PCM DAC; hopefully >44.1Khz sampling @ 24-bit playback (and hopefully capture from amp input channels)
 - bluetooth pairing
 - possibly IRDA
-- A more customizable and informative, aesthetic-as-fuck display
+- A more customizable and informative, ａｅｓｔｈｅｔｉｃ－ａｓ－ｆｕｃｋ display
 
 ## Motivation 
 This amp is one of a kind and really deserves to live on. In terms of it's design is very small and compact but offers very high quality sound and capable of driving 
