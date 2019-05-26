@@ -57,28 +57,28 @@ likely to happen at this point but I'd be interested in hearing someone's though
 
 1. A class amplifier (pure a control)
 * pin 13 - controls the A class +/- 12V power rail (pure A mode) pin is labeled as P23/STB in datasheet for upd78045. 
-** P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
-1.1.2 STB is an output mode of the pin - automatic transmission / reception strobe output line of serial interface.
-1.3 pin 49 (4.2v out to pure A led)
+* P23 is an 8-bit I/O port can be specified for input or output in 1 bit units STB = Strobe
+* STB is an output mode of the pin - automatic transmission / reception strobe output line of serial interface.
+* pin 49 (4.2v out to pure A led)
 
 2. Fluro tube display 
-2.1 pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively
-2.2 pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively
-2.3 pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively 
-2.4 pins 61-64 - datasheet says 61-64 are (P117/FIP25, P116/FIP24, P115/FIP23, P114/FIP22) respectively, UGH never want to cross ref that again.
+* pins 1-7 - datasheet says 1-7 are (P94/FIP6, P93/FIP5, P92/FIP4, P91/FIP3, P90/FIP2, P81/FIP1, P80/FIP0) respectively
+* pins 65-70 - datasheet says 65-70 are (P113/FIP21, P112/FIP20, P111/FIP19, P110/FIP18, P107/FIP17, P106/FIP16) respectively
+* pins 72-80 - datasheet says 72-77 are (P105/FIP15, P104/FIP14, P103/FIP13, P102/FIP12, P101/FIP11, P100/FIP10) and 78-80 are (P97/FIP9, P96/FIP8, P95/FIP7) respectively 
+* pins 61-64 - datasheet says 61-64 are (P117/FIP25, P116/FIP24, P115/FIP23, P114/FIP22) respectively, UGH never want to cross ref that again.
 
 3. PLL (input selector)
-3.1 pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
-3.2 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
+* pins 15-16 CLK & DATA (i2c) - datasheet says 15 is P21/SO1 and 16 is P20/SI1
+* 19 & 21 PLL DO, PLL CE - datasheet says 19 is P73 and 21 is P17/ANI7
 
 4. Tuner 
-4.1 pin 27-28 signal level - datasheet says 27 is P11/ANI11 28 is P10/ANI10
+* pin 27-28 signal level - datasheet says 27 is P11/ANI11 28 is P10/ANI10
 
 5. rotary encoder (volume control) 
-5.1 pins 25-26 - datasheet pin 25 is P13/ANI3 and pin 26 is P12/ANI12
+* pins 25-26 - datasheet pin 25 is P13/ANI3 and pin 26 is P12/ANI12
 
 6. Others
-6.1 1 & 3 (AC?) - datasheet pin 1 is P94/FIP6 and 3 is P92/FIP4
-6.2 14 SEL STB (Strobe?) out - datasheet P22/SCK1
-6.3 22 T. Mute - datashet P22/ANI6 
-6.4 71 VLOAD (-30v) - datasheet describes this as VLOAD
+* 1 & 3 (AC?) - datasheet pin 1 is P94/FIP6 and 3 is P92/FIP4
+* 14 SEL STB (Strobe?) out - datasheet P22/SCK1
+* 22 T. Mute - datashet P22/ANI6 
+* 71 VLOAD (-30v) - datasheet describes this as VLOAD
