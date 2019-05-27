@@ -138,8 +138,8 @@ This is a cross reference between schematic and datasheet pin descriptions which
 I get how this works now, see references for a video
 
 ### Materials required
-* LD1970-LQFP (ebay)
-* qfp44 to DIP pcb (.8mm pitch, ebay) 
+* LD1970-LQFP VFD driver (ebay)
+* qfp44 to DIP PCB (.8mm pitch, ebay) 
 * 30 AWG 0.5mm wire wrapping wire 
 
 #### datasheets
@@ -152,8 +152,14 @@ I get how this works now, see references for a video
 ## Tuner 
 * pin 27-28 signal level - datasheet says 27 is P11/ANI11 28 is P10/ANI10
 
+### Required materials
+* Microchip MCP3008-I/P MCP3008 8-Channel 10-Bit A/D Converters SPI (ebay)
+
 ## rotary encoder (volume control) 
 * pins 25-26 - datasheet pin 25 is P13/ANI3 and pin 26 is P12/ANI12
+
+### Required materials 
+* ADC part for tuner is 8 channel so use one from this IC
 
 ## Buttons
 
