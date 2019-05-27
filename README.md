@@ -137,7 +137,7 @@ This is a cross reference between schematic and datasheet pin descriptions which
 
 I get how this works now, see references for a video
 
-### Parts required
+### Materials required
 * LD1970-LQFP (ebay)
 * qfp44 to DIP pcb (.8mm pitch, ebay) 
 * 30 AWG 0.5mm wire wrapping wire 
