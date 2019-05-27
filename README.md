@@ -140,6 +140,8 @@ I get how this works now, see references for a video
 ### Parts required
 * LD1970-LQFP (ebay)
 * qfp44 to DIP pcb (.8mm pitch, ebay) 
+* 30 AWG 0.5mm wire wrapping wire 
+
 #### datasheets
 * LD1970-LQFP https://drive.google.com/open?id=1p74VR-g0E53IzVezi3FRFK0c-d78_95h
 
