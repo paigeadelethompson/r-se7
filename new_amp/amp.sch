@@ -1,0 +1,269 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TIP122 Q?
+U 1 1 5CEB47D4
+P 7500 1150
+F 0 "Q?" H 7750 1225 50  0000 L CNN
+F 1 "TIP122" H 7750 1150 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7750 1075 50  0001 L CIN
+F 3 "" H 7500 1150 50  0001 L CNN
+	1    7500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP127 Q?
+U 1 1 5CEB4A80
+P 7500 3200
+F 0 "Q?" H 7750 3275 50  0000 L CNN
+F 1 "TIP127" H 7750 3200 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7750 3125 50  0001 L CIN
+F 3 "" H 7500 3200 50  0001 L CNN
+	1    7500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP122 Q?
+U 1 1 5CEB4B3B
+P 7500 4650
+F 0 "Q?" H 7750 4725 50  0000 L CNN
+F 1 "TIP122" H 7750 4650 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7750 4575 50  0001 L CIN
+F 3 "" H 7500 4650 50  0001 L CNN
+	1    7500 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L TIP127 Q?
+U 1 1 5CEB4B7E
+P 7500 2550
+F 0 "Q?" H 7750 2625 50  0000 L CNN
+F 1 "TIP127" H 7750 2550 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 7750 2475 50  0001 L CIN
+F 3 "" H 7500 2550 50  0001 L CNN
+	1    7500 2550
+	1    0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 5CEB4C5A
+P 7600 1600
+F 0 "R?" V 7680 1600 50  0000 C CNN
+F 1 "R" V 7600 1600 50  0000 C CNN
+F 2 "" V 7530 1600 50  0001 C CNN
+F 3 "" H 7600 1600 50  0001 C CNN
+	1    7600 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5CEB4D0D
+P 7600 2050
+F 0 "R?" V 7680 2050 50  0000 C CNN
+F 1 "R" V 7600 2050 50  0000 C CNN
+F 2 "" V 7530 2050 50  0001 C CNN
+F 3 "" H 7600 2050 50  0001 C CNN
+	1    7600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5CEB4E62
+P 7600 3750
+F 0 "R?" V 7680 3750 50  0000 C CNN
+F 1 "R" V 7600 3750 50  0000 C CNN
+F 2 "" V 7530 3750 50  0001 C CNN
+F 3 "" H 7600 3750 50  0001 C CNN
+	1    7600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5CEB4EA7
+P 7600 4150
+F 0 "R?" V 7680 4150 50  0000 C CNN
+F 1 "R" V 7600 4150 50  0000 C CNN
+F 2 "" V 7530 4150 50  0001 C CNN
+F 3 "" H 7600 4150 50  0001 C CNN
+	1    7600 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5CEB52E1
+P 7000 3350
+F 0 "C?" H 7025 3450 50  0000 L CNN
+F 1 "C" H 7025 3250 50  0000 L CNN
+F 2 "" H 7038 3200 50  0001 C CNN
+F 3 "" H 7000 3350 50  0001 C CNN
+	1    7000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5CEB6715
+P 7000 2700
+F 0 "C?" H 7025 2800 50  0000 L CNN
+F 1 "C" H 7025 2600 50  0000 L CNN
+F 2 "" H 7038 2550 50  0001 C CNN
+F 3 "" H 7000 2700 50  0001 C CNN
+	1    7000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5CEC08A9
+P 3900 3850
+F 0 "C?" H 3925 3950 50  0000 L CNN
+F 1 "C" H 3925 3750 50  0000 L CNN
+F 2 "" H 3938 3700 50  0001 C CNN
+F 3 "" H 3900 3850 50  0001 C CNN
+	1    3900 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5CEC11E0
+P 3900 3600
+F 0 "R?" V 3980 3600 50  0000 C CNN
+F 1 "R" V 3900 3600 50  0000 C CNN
+F 2 "" V 3830 3600 50  0001 C CNN
+F 3 "" H 3900 3600 50  0001 C CNN
+	1    3900 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 5CEC1FE3
+P 3200 4550
+F 0 "C?" H 3225 4650 50  0000 L CNN
+F 1 "C" H 3225 4450 50  0000 L CNN
+F 2 "" H 3238 4400 50  0001 C CNN
+F 3 "" H 3200 4550 50  0001 C CNN
+	1    3200 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE5532 U?
+U 2 1 5CEC0758
+P 3850 4700
+F 0 "U?" H 3850 4900 50  0000 L CNN
+F 1 "NE5532" H 3850 4500 50  0000 L CNN
+F 2 "" H 3850 4700 50  0001 C CNN
+F 3 "" H 3850 4700 50  0001 C CNN
+	2    3850 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L NE5532 U?
+U 1 1 5CEC0719
+P 3900 2550
+F 0 "U?" H 3900 2750 50  0000 L CNN
+F 1 "NE5532" H 3900 2350 50  0000 L CNN
+F 2 "" H 3900 2550 50  0001 C CNN
+F 3 "" H 3900 2550 50  0001 C CNN
+	1    3900 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 7600 2850
+Wire Wire Line
+	7600 2750 7600 3000
+Connection ~ 7600 3500
+Wire Wire Line
+	7600 3400 7600 3600
+Wire Wire Line
+	7600 3900 7600 4000
+Connection ~ 7000 3200
+Wire Wire Line
+	7000 3200 7300 3200
+Wire Wire Line
+	7600 3500 7000 3500
+Connection ~ 7600 3950
+Wire Wire Line
+	7600 4300 7600 4450
+Connection ~ 7600 4400
+Wire Wire Line
+	7600 2350 7600 2200
+Connection ~ 7600 2300
+Wire Wire Line
+	7600 1900 7600 1750
+Wire Wire Line
+	7600 1450 7600 1350
+Connection ~ 7600 1400
+Connection ~ 7600 1850
+Connection ~ 7000 2550
+Wire Wire Line
+	7300 2550 7000 2550
+Wire Wire Line
+	7000 2850 7600 2850
+Connection ~ 3450 3850
+Wire Wire Line
+	3450 3850 3750 3850
+Connection ~ 3450 3600
+Wire Wire Line
+	3200 3600 3750 3600
+Connection ~ 4300 3850
+Connection ~ 4300 4700
+Wire Wire Line
+	4300 4700 4150 4700
+Wire Wire Line
+	4300 3850 4050 3850
+Connection ~ 3200 4800
+Wire Wire Line
+	3200 4700 3200 4800
+Wire Wire Line
+	3200 4800 3550 4800
+Wire Wire Line
+	3200 4400 3200 3600
+Wire Wire Line
+	3550 4600 3450 4600
+Wire Wire Line
+	3450 4600 3450 3850
+Wire Wire Line
+	4300 3850 4300 4700
+$EndSCHEMATC
